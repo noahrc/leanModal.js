@@ -44,8 +44,6 @@
                     var modalHeight= $(modalId).outerHeight();
                     var modalWidth = $(modalId).outerWidth();
 
-                    console.log(modalWidth);
-
                     $('#lean_overlay').css({ 'display' : 'block', opacity : 0 });
 
                     $('#lean_overlay').fadeTo(200, o.overlay);
